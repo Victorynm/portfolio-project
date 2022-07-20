@@ -1,2 +1,23 @@
-/*font-family: 'Taviraj', serif;*/
-/*font-family: 'Poppins', sans-serif;*/
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	font-size: 96px;
+	font-family: "Ibarra Real Nova", serif;
+}
+h2 {
+	font-size: 48px;
+}
+p {
+	font-size: 30px;
+}
+.hero {
+	text-align: center;
+	background: #bbe9db;
+	padding: 150px 50px;
+}
+a.btn-secondary {
+	border-radius: 30px;
+	padding: 15px 30px;
+}
