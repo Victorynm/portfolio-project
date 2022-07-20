@@ -1,3 +1,7 @@
+:root {
+	--primary-color: #bbe9db;
+	--secondary-color: #aeccc6;
+}
 body {
 	font-family: "Roboto", sans-serif;
 }
@@ -9,15 +13,53 @@ h1 {
 h2 {
 	font-size: 48px;
 }
-p {
+i {
+	font-size: 25px;
+	color: var(--secondary-color);
+}
+.hero p {
 	font-size: 30px;
 }
 .hero {
 	text-align: center;
-	background: #bbe9db;
+	background: var(--primary-color);
 	padding: 150px 50px;
+	margin: 50px;
+	border-radius: 30px;
 }
 a.btn-secondary {
 	border-radius: 30px;
 	padding: 15px 30px;
+}
+.col-sm-6 a {
+	border: 2px solid var(--secondary-color);
+	border-radius: 30px;
+	padding: 15px 30px;
+}
+.line {
+	height: 5px;
+	background: var(--secondary-color);
+}
+@media (max-width: 600px) {
+	h1 {
+		font-size: 45px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	p {
+		text-align: center;
+		padding: 0px 20px;
+	}
+	.hero {
+		margin: 0;
+		padding: 50px 0px;
+		border-radius: 0px;
+	}
+	.img {
+		display: none;
+	}
+	.col-sm-6 a {
+		text-align: center;
+	}
 }
