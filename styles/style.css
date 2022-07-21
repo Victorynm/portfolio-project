@@ -60,6 +60,8 @@ a.btn-secondary {
 		display: none;
 	}
 	.col-sm-6 a {
-		text-align: center;
+		display: block;
+		margin: 0 auto;
+		width: 50%;
 	}
 }
