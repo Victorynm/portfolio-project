@@ -55,7 +55,7 @@ a.btn-secondary {
 	padding: 0 30px;
 }
 .project {
-	height: 570px;
+	height: 100%;
 }
 @media (max-width: 600px) {
 	h1 {
@@ -74,7 +74,7 @@ a.btn-secondary {
 		padding: 50px 0px;
 		border-radius: 0px;
 	}
-	.about {
+	.content {
 		padding: 0;
 		margin: 20px 0 0 0;
 	}
