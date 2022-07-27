@@ -5,11 +5,11 @@
 body {
 	font-family: "Roboto", sans-serif;
 }
-
 h1 {
-	font-size: 96px;
 	font-family: "Ibarra Real Nova", serif;
+	font-size: 85px;
 }
+
 h2 {
 	font-size: 48px;
 }
@@ -27,7 +27,7 @@ i {
 	margin: 50px;
 	border-radius: 30px;
 }
-.about {
+.content {
 	margin: 50px;
 	padding: 20px;
 }
@@ -53,6 +53,9 @@ a.btn-secondary {
 }
 .info {
 	padding: 0 30px;
+}
+.project {
+	height: 570px;
 }
 @media (max-width: 600px) {
 	h1 {
