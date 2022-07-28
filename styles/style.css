@@ -57,9 +57,17 @@ a.btn-secondary {
 .project {
 	height: 100%;
 }
+.contact {
+	color: var(--primary-color);
+	text-decoration: none;
+}
+.contact:hover {
+	color: var(--secondary-color);
+	text-decoration: underline;
+}
 @media (max-width: 600px) {
 	h1 {
-		font-size: 45px;
+		font-size: 40px;
 	}
 	h2 {
 		font-size: 25px;
