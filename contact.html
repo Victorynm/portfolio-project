@@ -4,7 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+		<meta
+			name="description"
+			content="Contact information of Viktoriia Stanchak"
+		/>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -37,13 +40,30 @@
 	</head>
 	<body>
 		<nav class="d-flex justify-content-center m-2">
-			<li><a href="/" class="text-decoration-none p-3">Home</a></li>
 			<li>
-				<a href="/about.html" class="text-decoration-none p-3">About me</a>
+				<a href="/" title="Homepage" class="text-decoration-none p-3">Home</a>
 			</li>
-			<li><a href="/work.html" class="text-decoration-none p-3">Work</a></li>
 			<li>
-				<a href="/contact.html" class="active text-decoration-none p-3"
+				<a
+					href="/about.html"
+					title="About Viktoriia"
+					class="text-decoration-none p-3"
+					>About me</a
+				>
+			</li>
+			<li>
+				<a
+					href="/work.html"
+					title="Viktoriia's work"
+					class="text-decoration-none p-3"
+					>Work</a
+				>
+			</li>
+			<li>
+				<a
+					href="/contact.html"
+					title="Contact Viktoriia"
+					class="active text-decoration-none p-3"
 					>Contacts</a
 				>
 			</li>
@@ -53,18 +73,21 @@
 		<div class="content">
 			<div class="text-center">
 				<h4>Email</h4>
-				<a href="mailto:victorynm22@gmail.com" class="contact"
+				<a href="mailto:victorynm22@gmail.com" class="contact" title="Email"
 					>victorynm22@gmail.com</a
 				>
 				<br />
 				<h4 class="mt-2">Telegram</h4>
-				<a href="https://t.me/Victorynm22" class="contact">@Victorynm22</a>
+				<a href="https://t.me/Victorynm22" class="contact" title="Telegram"
+					>@Victorynm22</a
+				>
 				<br />
 				<h4 class="mt-2">LinkedIn</h4>
 				<a
 					href="https://www.linkedin.com/in/viktoriia-stanchak"
 					class="contact"
 					target="_blank"
+					title="LinkedIn"
 				>
 					Viktoriia Stanchak</a
 				>
@@ -72,10 +95,15 @@
 		</div>
 		<div class="line ms-5 mt-5 me-5"></div>
 		<footer class="d-flex justify-content-center">
-			<a href="mailto:victorynm22@gmail.com" class="m-4">
+			<a href="mailto:victorynm22@gmail.com" class="m-4" title="Email">
 				<i class="fa-regular fa-envelope"></i
 			></a>
-			<a href="https://t.me/Victorynm22" class="m-4" target="_blank">
+			<a
+				href="https://t.me/Victorynm22"
+				class="m-4"
+				target="_blank"
+				title="Telegram"
+			>
 				<i class="fa-regular fa-paper-plane"></i
 			></a>
 			<a
@@ -83,7 +111,7 @@
 				class="m-4"
 				target="_blank"
 			>
-				<i class="fa-brands fa-linkedin"></i
+				<i class="fa-brands fa-linkedin" title="LinkedIn"></i
 			></a>
 		</footer>
 	</body>
