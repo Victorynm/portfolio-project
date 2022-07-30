@@ -1,6 +1,7 @@
 :root {
 	--primary-color: #bbe9db;
 	--secondary-color: #aeccc6;
+	--third-color: #757a79;
 }
 body {
 	font-family: "Roboto", sans-serif;
@@ -24,18 +25,32 @@ i {
 	text-align: center;
 	background: var(--primary-color);
 	padding: 150px 50px;
-	margin: 50px;
+	margin: 0 50px;
 	border-radius: 30px;
 }
 .content {
-	margin: 50px;
+	margin: 0 50px;
 	padding: 20px;
 }
 a.btn-secondary {
 	border-radius: 30px;
 	padding: 15px 30px;
 }
+li {
+	list-style: none;
+}
+li a {
+	color: var(--third-color);
+}
+li a:hover {
+	color: var(--primary-color);
+}
+a.active {
+	color: var(--secondary-color);
+}
 .col-sm-6 a {
+	display: block;
+	margin: 50px;
 	border: 2px solid var(--secondary-color);
 	border-radius: 30px;
 	padding: 15px 30px;
@@ -65,6 +80,7 @@ a.btn-secondary {
 	color: var(--secondary-color);
 	text-decoration: underline;
 }
+
 @media (max-width: 600px) {
 	h1 {
 		font-size: 40px;
@@ -76,7 +92,9 @@ a.btn-secondary {
 		text-align: center;
 		padding: 0px 20px;
 	}
-
+	li {
+		font-size: 10px;
+	}
 	.hero {
 		margin: 0;
 		padding: 50px 0px;
