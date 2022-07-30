@@ -18,6 +18,9 @@ i {
 	font-size: 25px;
 	color: var(--secondary-color);
 }
+i:hover {
+	color: var(--third-color);
+}
 .hero p {
 	font-size: 30px;
 }
